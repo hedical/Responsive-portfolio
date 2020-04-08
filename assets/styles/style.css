@@ -9,7 +9,7 @@ span{
 /* For any screen larger than 600px */
 @media screen and (min-width: 769px){
     main{
-        height: 86vh;
+        height: 84vh;
         overflow: hidden;
     }
 }
