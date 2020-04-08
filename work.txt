@@ -1,0 +1,3 @@
+- verify all alts
+- refactor footer
+- verify all semantic
