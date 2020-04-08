@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
 
     <title>Portfolio HC</title>
 </head>
@@ -18,7 +18,7 @@
 <body>
     <!-- Nav Elements -->
 
-    <nav class="d-flex navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <nav class="d-flex navbar navbar-expand-lg navbar navbar-dark bg-dark h-10">
         <a class="navbar-brand" href="./index.html">Hedi Calabrese</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,11 +26,12 @@
         </button>
         <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    <a class="nav-link active" href="./portfolio.html">Portfolio <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
@@ -41,45 +42,85 @@
     <!-- Main Elements -->
 
     <main class="container">
-        <div class="row">
-            <div class="card mb-3 mt-5" style="max-width: 540px;">
+
+        <section class="row">
+
+            <!-- Article JavaScript -->
+            <article class="card mb-3 mt-5 mr-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="https://images.adsttc.com/media/images/5d23/942a/284d/d1be/3000/00f7/large_jpg/8c.jpg?1562612754"
-                            class="card-img" alt="...">
+                        <img src="./assets/img/Capture d’écran 2020-04-07 à 7.48.21 PM.png" class="card-img"
+                            alt="JavaScript Prompt image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">JavaScript guess</h5>
+                            <p class="card-text">Short game using prompts and alerts to guess what number I am thinking
+                                of.</p>
+                            <p class="card-text"><small class="text-muted">Last updated : 04/07/2020</small></p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card mb-3 mt-5" style="max-width: 540px;">
+            </article>
+
+            <!-- Article Bootstrap Grid -->
+            <article class="card mb-3 mt-5" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="https://images.adsttc.com/media/images/5d23/942a/284d/d1be/3000/00f7/large_jpg/8c.jpg?1562612754"
-                            class="card-img" alt="...">
+                        <img src="./assets/img/Capture d’écran 2020-04-07 à 7.46.11 PM.png" class="card-img"
+                            alt="Bootstrap grid code image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Boostrap Grid</h5>
+                            <p class="card-text">Multiple test to understand the grid system within Bootstrap.</p>
+                            <p class="card-text"><small class="text-muted">Last updated : 04/07/2020</small></p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </article>
+
+            <!-- Article HTML 5 Semantics -->
+            <article class="card mb-3 mt-5 mr-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/Capture d’écran 2020-04-07 à 7.50.55 PM.png" class="card-img"
+                            alt="Website HTML 5 semantics">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML 5 Semantics</h5>
+                            <p class="card-text">Creation of a website with HTML 5 semantics rules.</p>
+                            <p class="card-text"><small class="text-muted">Last updated : 04/07/2020</small></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article Refactor -->
+            <article class="card mb-3 mt-5" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./assets/img/Capture d’écran 2020-04-07 à 7.58.10 PM.png" class="card-img"
+                            alt="Website Refactor image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Refactor</h5>
+                            <p class="card-text">Refactor of a website to be compliant to HTML 5 semantics rules.</p>
+                            <p class="card-text"><small class="text-muted">Last updated : 04/07/2020</small></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
     </main>
 
     <!-- Footer Elements -->
 
-    <footer class="fixed-bottom bg-dark">
+    <footer class="bg-dark navbar navbar-inner navbar-fixed-bottom">
         <p class="text-center text-light">
             © Copyright
         </p>
