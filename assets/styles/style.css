@@ -6,7 +6,7 @@ span{
     margin-right: 30px;
 }
 
-/* For any screen larger than 600px */
+/* For any screen larger than 769px */
 @media screen and (min-width: 769px){
     main{
         height: 84vh;
