@@ -12,4 +12,10 @@ span{
         height: 79vh;
         overflow: hidden;
     }
+    header{
+        height: 10vh;
+    }
+    footer{
+        height: 11vh;
+    }
 }
